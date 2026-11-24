@@ -1,0 +1,19 @@
+# Sentiment Analysis (McDonald's reviews) - CS_ELECTIVE_2
+#
+# PC with an NVIDIA GPU (CUDA 12.6 build of torch):
+#   pip install -r requirements.txt --extra-index-url https://download.pytorch.org/whl/cu126
+# PC without an NVIDIA GPU (CPU build of torch):
+#   pip install -r requirements.txt --extra-index-url https://download.pytorch.org/whl/cpu
+# Google Colab already has these installed; nothing to do.
+numpy==2.5.5
+pandas==3.1.1
+matplotlib==3.11.2
+seaborn==0.13.2
+scikit-learn==1.9.1
+nltk==3.10.4
+wordcloud==1.9.6
+torch==2.14.1
+transformers==5.23.0
+vaderSentiment==3.3.2
+ipykernel==7.4.0
+jupyter==1.1.1

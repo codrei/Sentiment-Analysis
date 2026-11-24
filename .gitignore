@@ -1,0 +1,16 @@
+# virtual environment (make a new one on each computer, see SETUP.md)
+sentiment_env/
+
+# data: the raw Kaggle CSV and everything the notebooks generate from it
+*.csv
+
+# fine-tuned transformer (~480 MB), rebuilt by Semantic_Presentation.ipynb
+model/roberta_binary/
+
+# lesson slides are the professor's course material
+*.pdf
+
+# editor / Jupyter clutter
+.ipynb_checkpoints/
+__pycache__/
+.vscode/
